@@ -8,5 +8,6 @@ public class HelloWorld {
         String name = scanner.nextLine();
         System.out.println("¡Hola " + name + "!");
         System.out.println("Hoy es: " + LocalDate.now());
+        scanner.close();
     }
 }
